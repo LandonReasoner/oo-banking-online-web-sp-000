@@ -1,7 +1,7 @@
 class BankAccount
 
-attr_accessor:
-attr_reader:name 
+attr_accessor :balance, :status
+attr_reader :name 
 
 
 end
