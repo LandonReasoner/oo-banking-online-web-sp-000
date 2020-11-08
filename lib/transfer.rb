@@ -20,7 +20,7 @@ class Transfer
   def execute_transaction 
     if @sender.valid?
       @sender.deposit( @amount * -1 )
-      @receiver.deposit(@amount)
+      @receiver.deposit( @amount )
       @status = "complete"
     elsif @status == "complete"
       puts "Transaction was already executed"
