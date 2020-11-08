@@ -1,7 +1,7 @@
+class BankAccount
 
+#attr_accessor:
+attr_reader:name 
 
-
-
-class BankAccount(name)
 
 end
